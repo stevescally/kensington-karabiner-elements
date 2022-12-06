@@ -1,0 +1,59 @@
+{
+  "title": "Kensington ProFit Ergo Space Switch Mapping",
+  "rules": [
+    {
+      "description": "Button 4 Move Space Right",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "pointing_button": "button4"
+          },
+          "to": [
+            {
+              "repeat": false,
+              "simultaneous": [
+                  {
+                      "key_code": "left_command"
+                  },
+                  {
+                      "key_code": "left_shift"
+                  },
+                  {
+                      "key_code": "l"
+                  }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "Button 5 Move Space Left",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "pointing_button": "button5"
+          },
+          "to": [
+            {
+              "repeat": false,
+              "simultaneous": [
+                  {
+                      "key_code": "left_command"
+                  },
+                  {
+                      "key_code": "left_shift"
+                  },
+                  {
+                      "key_code": "h"
+                  }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
