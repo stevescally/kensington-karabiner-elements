@@ -35,5 +35,15 @@ processes.
 1. Create file remap_buttons.json in ~/.config/karabiner/assets/complex_modifications
 1. Paste copied content into new file and save
 
+## Activation / Enable
+
+1. Open Karabiner-Elements Preferences
+1.Select __Complex Modifications__
+  ![Figure 1.0: Complex Modifications Option](images/karabiner-elements-preferences-complex-modifications.png)
+1.Click __Add rule__
+  ![Figure 1.1: Add rule(s)](images/karabiner-elements-complex-modifications-add-rule.png)
+1. Click __Enable__ option next to the specific rules you want to enable or select __Enable All__
+   in the bottom right corner.
+
 
 
