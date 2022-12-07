@@ -1,8 +1,8 @@
 {
-  "title": "Kensington ProFit Ergo Space Switch Mapping",
+  "title": "Kensington ProFit Ergo Button Mapping",
   "rules": [
     {
-      "description": "Button 4 Move Space Right",
+      "description": "Kensington ProFit Button 4 Move Space Right",
       "manipulators": [
         {
           "type": "basic",
@@ -12,16 +12,10 @@
           "to": [
             {
               "repeat": false,
-              "simultaneous": [
-                  {
-                      "key_code": "left_command"
-                  },
-                  {
-                      "key_code": "left_shift"
-                  },
-                  {
-                      "key_code": "l"
-                  }
+              "key_code": "l",
+              "modifiers": [
+                "left_command",
+                "left_shift"
               ]
             }
           ]
@@ -29,7 +23,7 @@
       ]
     },
     {
-      "description": "Button 5 Move Space Left",
+      "description": "Kensington ProFit Button 5 Move Space Left",
       "manipulators": [
         {
           "type": "basic",
@@ -39,17 +33,45 @@
           "to": [
             {
               "repeat": false,
-              "simultaneous": [
-                  {
-                      "key_code": "left_command"
-                  },
-                  {
-                      "key_code": "left_shift"
-                  },
-                  {
-                      "key_code": "h"
-                  }
+              "key_code": "h",
+              "modifiers": [
+                "left_command",
+                "left_shift"
               ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "Kensington ProFit Button 6 Volume Decrement",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "pointing_button": "button6"
+          },
+          "to": [
+            {
+              "repeat": false,
+              "consumer_key_code": "volume_decrement"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "Kensington ProFit Button 7 Volume Increment",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "pointing_button": "button7"
+          },
+          "to": [
+            {
+              "repeat": false,
+              "consumer_key_code": "volume_increment"
             }
           ]
         }
